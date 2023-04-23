@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <!-- <link rel="stylesheet" href="myjavascript.js"> -->
+    <link rel="stylesheet" href="/asset/css/signUp-Style.css">
+</head>
+<body>
+    <a href="/index.html"><img src="/img/logo.png" alt=""></a>
+    <div id="container">
+        <p>Sign Up</p>
+        <!-- <form onsubmit="signup()"> -->
+            <div id="input">
+                <input type="text" id="UserName" placeholder="User Name">
+            <small id="Usererror">Username không được bỏ trống</small>
+            </div>
+            <div id="input">
+                <input type="text" id="Email" placeholder="Email">
+                <small id="Emailerror">Email không được bỏ trống</small>
+            </div>
+            <div id="input"><input type="text" id="Password" placeholder="Password">
+                <small id="Passwordrerror">Password không được bỏ trống</small></div>
+            <div id="input">
+                <input type="text" id="confirmPassword" placeholder="Confirm Password">
+            <small id="unmatch">Không trùng khớp với mật khẩu trên</small>
+            <small id="Confirmerror">Confirm Password không được bỏ trống</small>
+            </div>
+            
+            
+            
+            <a href="/signIn.html">Sign In</a>
+            <button id="btnSignup" onclick="signup()"> Sign Up</button>
+        <!-- </form> -->
+        <script src="myjavascript.js"></script>
+    </div>
+</body>
+</html>

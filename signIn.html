@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="/asset/css/signIn-Style.css">
+    <link rel="stylesheet" href="myjavascript.js">
+</head>
+<body>
+    <a href="/index.html"><img src="/img/logo.png" alt=""></a>
+    
+    <div id="container">
+        <p>Sign In</p>
+        <div id="input">
+            <input type="text" id="UserName" placeholder="User name">
+            <small id="Usererror">Username không được bỏ trống</small>
+        </div>
+        <div id="input">
+            <input type="text" id="Email" placeholder="Email">
+            <small id="Emailerror">Email không được bỏ trống</small>
+        </div>
+        <div id="input">
+            <input type="password" id="Password" placeholder="Password">
+            <small id="Passwordrerror">Password không được bỏ trống</small>
+        </div>
+        <!-- <input type="checkbox" name="" id="hide" style="height: 20px;width: 20px;"><label for="hide"  style="height: 20px;">Hiện password</label> -->
+        <!-- <br> -->
+        <a href="/signUp.html">Sign Up</a>
+        <button id="btnSignin" onclick="signin()"> Login</button>
+    </div>
+    <script src="myjavascript.js"></script>
+</body>
+</html>
